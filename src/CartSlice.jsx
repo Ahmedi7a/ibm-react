@@ -2,7 +2,7 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import './Cart.css'; // Import the CSS file for styling
 
-function Cart({ cart, setCart }) {
+function CartSlice({ cart, setCart }) {
   const navigate = useNavigate();
 
   const increment = (product) => {
@@ -60,4 +60,4 @@ function Cart({ cart, setCart }) {
   );
 }
 
-export default Cart;
+export default CartSlice;
