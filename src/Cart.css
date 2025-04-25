@@ -1,0 +1,88 @@
+.cart {
+  padding: 2rem;
+}
+
+.cart h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.cart-item {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  width: 100%;
+  max-width: 800px;
+  margin: 1rem auto;
+}
+
+.cart-item-image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-right: 1rem;
+}
+
+.cart-item-details {
+  flex: 1;
+}
+
+.cart-item-details h3 {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.cart-item-details p {
+  margin: 0.5rem 0;
+}
+
+.cart-item-actions {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.cart-item-actions button {
+  padding: 0.5rem 1rem;
+  background-color: #646cff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cart-item-actions button:hover {
+  background-color: #4a52c9;
+}
+
+.cart-item-actions button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.cart h2 {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+button {
+  display: block;
+  margin: 1rem auto;
+  padding: 0.8rem 2rem;
+  font-size: 1rem;
+  background-color: #646cff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #4a52c9;
+}
